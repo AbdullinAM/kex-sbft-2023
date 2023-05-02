@@ -1,4 +1,4 @@
-% Pandoc presentation example
+% Kex at SBFT 2023 Tool Competition
 % Azat Abdullin
 
 # Title
@@ -11,7 +11,6 @@
 <!-- link -->
 email:
 
-* <abdullin@kspt.icc.spbstu.ru>
 * <azat.abdullin@jetbrains.com>
 
 repository:
@@ -25,10 +24,6 @@ repository:
 ::: {.column width="30%"}
 \vspace{-3ex}
 ![](jetbrainsResearch)
-:::
-::: {.column width="30%"}
-\vspace{1mm}
-![](polytech)
 :::
 ::::::::::::::
 
