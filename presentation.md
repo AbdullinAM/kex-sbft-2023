@@ -88,30 +88,30 @@
 
 \tiny
 ```java
-public class PointKt_foo_408172348_throw_java_lang_IllegalArgumentException2 {
-    @Rule public Timeout globalTimeout = new Timeout(100, TimeUnit.SECONDS);
-    Object term7711;
-    Object term7751;
-
-    @Before
-    public void setup() throws Throwable {
-        term7711 = newInstance(Class.forName("org.example.Point"));
-        setIntField(term7711, term7711.getClass(), "x", -2147483648);
-        term7751 = newInstance(Class.forName("org.example.Point"));
-        setIntField(term7751, term7751.getClass(), "x", -2147483647);
-    }
-
-    @Test
-    public void test() throws Throwable {
-        Class<?> klass = Class.forName("org.example.PointKt");
-        Class<?>[] argTypes = new Class<?>[2];
-        argTypes[0] = Class.forName("org.example.Point");
-        argTypes[1] = Class.forName("org.example.Point");
-        Object[] args = new Object[2];
-        args[0] = term7711;
-        args[1] = term7751;
-        callMethod(klass, "foo", argTypes, null, args);
-    }
+public class ArrayListValuedHashMap-init-90775276022 {
+	Object term22200;
+	// number of utility methods here
+	// ...
+	@Before
+	public void setup() throws Throwable {
+		try {;
+			Object term22072 = newInstance(Class.forName("org.apache.commons.collections4.multimap.ArrayListValuedHashMap"));
+			HashMap term22248 = new HashMap();
+			term22200 = newInstance(Class.forName("org.apache.commons.collections4.multimap.HashSetValuedHashMap"));
+			setField(term22200, term22200.getClass(), "map", term22248);
+		} catch (Throwable e) {};
+	}
+	@Test
+	public void test() throws Throwable {
+		try {;
+			Class<?> klass = Class.forName("org.apache.commons.collections4.multimap.ArrayListValuedHashMap");
+			Class<?>[] argTypes = new Class<?>[1];
+			argTypes[0] = Class.forName("org.apache.commons.collections4.MultiValuedMap");
+			Object[] args = new Object[1];
+			args[0] = term22200;
+			callConstructor(klass, argTypes, args);
+		} catch (Throwable e) {};
+	}
 };
 ```
 
@@ -178,7 +178,13 @@ Overall ranking             & \multicolumn{2}{c|}{4.89}         & \multicolumn{2
 
 # Conclusions
 
-TODO: image
+* Kex significantly improved coverage metrics compared to previous years
+	* performed on par with the other SE-based tools
+* Kex has several implementation issues that affect its reliability
+	* e.g. Kex failed on `ta4j` project because of bug in Kfg
+* Kex needs to improve the quality of generated tests
+	* generate test oracles
+	* improve understandability
 
 
 ################################################################################
