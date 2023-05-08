@@ -133,25 +133,26 @@ public class ArrayListValuedHashMap-init-90775276022 {
 
 # Kex-symbolic\footnote{\url{https://github.com/vorpal-research/kex/releases/tag/sbft2023}}
 
+\center
+![](symbolic)
+
 * traditional symbolic execution engine for automatic test generation
 * traverses the CFG of PUT on a basic block level
 * uses breadth-first search for path selection
 	* proof-of-concept prototype
-
-TODO maybe image
 
 
 ################################################################################
 
 # Kex-concolic\footnote{\url{https://github.com/vorpal-research/kex/releases/tag/sbft2023}}
 
+\center
+![](concolic)
 
 * traditional concolic engine for automatic test generation
-* uses Kfg instrumentation to collect symbolic state during concrete execution
+* uses instrumentation to collect symbolic state during concrete execution
 * uses Easy-Random\footnote{\url{https://github.com/j-easy/easy-random}} library for initial seed generation
 * uses context-guided search for path exploration
-
-TODO maybe image
 
 
 

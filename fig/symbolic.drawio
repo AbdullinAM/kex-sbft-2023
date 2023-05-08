@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-05-08T11:29:58.410Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="Mc_nVrX_Z3_snSURasw6" version="21.2.1" type="device">
+  <diagram name="Page-1" id="5A4l9ZI6GL5SOLMIPWie">
+    <mxGraphModel dx="861" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DpVoi_AvmMxI9774LhKq-1" value="S" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-3" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Fira Mono;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-5" value="S&lt;br&gt;a = true" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-7" value="S&lt;br&gt;a = false" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DpVoi_AvmMxI9774LhKq-8" target="DpVoi_AvmMxI9774LhKq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DpVoi_AvmMxI9774LhKq-8" target="DpVoi_AvmMxI9774LhKq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-8" value="if (a) &lt;br&gt;goto %b1 else %b2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Fira Mono;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-11" value="symbolic&lt;br&gt;state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Fira Mono;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpVoi_AvmMxI9774LhKq-12" value="new symbolic states" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Fira Mono;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

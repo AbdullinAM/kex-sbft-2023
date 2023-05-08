@@ -1,0 +1,41 @@
+<mxfile host="Electron" modified="2023-05-08T11:35:53.086Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="1ptAnIRrlIP4u7nK-Z7J" version="21.2.1" type="device">
+  <diagram name="Page-1" id="xP_j0bZX_592_wM04hjq">
+    <mxGraphModel dx="718" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="29d9C1JNuSAhMYfhiV2v-1" target="29d9C1JNuSAhMYfhiV2v-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-5" value="concrete&lt;br&gt;execution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];backgroundOutline=0;fontFamily=Fira Mono;labelBackgroundColor=none;" vertex="1" connectable="0" parent="29d9C1JNuSAhMYfhiV2v-4">
+          <mxGeometry x="-0.0766" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-1" value="test&lt;br&gt;data" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-2" value="symbolic&lt;br&gt;state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Fira Mono;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Fira Mono;" edge="1" parent="1" source="29d9C1JNuSAhMYfhiV2v-3" target="29d9C1JNuSAhMYfhiV2v-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-12" value="inverting path&lt;br&gt;condition X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontFamily=Fira Mono;" vertex="1" connectable="0" parent="29d9C1JNuSAhMYfhiV2v-11">
+          <mxGeometry x="-0.1971" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-3" value="S" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-7" value="S&lt;br&gt;!X" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Fira Mono;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29d9C1JNuSAhMYfhiV2v-8" value="new symbolic state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Fira Mono;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
