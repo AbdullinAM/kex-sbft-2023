@@ -89,29 +89,29 @@
 \tiny
 ```java
 public class ArrayListValuedHashMap-init-90775276022 {
-	Object term22200;
-	// number of utility methods here
-	// ...
-	@Before
-	public void setup() throws Throwable {
-		try {;
-			Object term22072 = newInstance(Class.forName("org.apache.commons.collections4.multimap.ArrayListValuedHashMap"));
-			HashMap term22248 = new HashMap();
-			term22200 = newInstance(Class.forName("org.apache.commons.collections4.multimap.HashSetValuedHashMap"));
-			setField(term22200, term22200.getClass(), "map", term22248);
-		} catch (Throwable e) {};
-	}
-	@Test
-	public void test() throws Throwable {
-		try {;
-			Class<?> klass = Class.forName("org.apache.commons.collections4.multimap.ArrayListValuedHashMap");
-			Class<?>[] argTypes = new Class<?>[1];
-			argTypes[0] = Class.forName("org.apache.commons.collections4.MultiValuedMap");
-			Object[] args = new Object[1];
-			args[0] = term22200;
-			callConstructor(klass, argTypes, args);
-		} catch (Throwable e) {};
-	}
+  Object term22200;
+  // number of utility methods here
+  // ...
+  @Before
+  public void setup() throws Throwable {
+    try {;
+      Object term22072 = newInstance(Class.forName("org.apache.commons.collections4.multimap.ArrayListValuedHashMap"));
+      HashMap term22248 = new HashMap();
+      term22200 = newInstance(Class.forName("org.apache.commons.collections4.multimap.HashSetValuedHashMap"));
+      setField(term22200, term22200.getClass(), "map", term22248);
+    } catch (Throwable e) {};
+  }
+  @Test
+  public void test() throws Throwable {
+    try {;
+      Class<?> klass = Class.forName("org.apache.commons.collections4.multimap.ArrayListValuedHashMap");
+      Class<?>[] argTypes = new Class<?>[1];
+      argTypes[0] = Class.forName("org.apache.commons.collections4.MultiValuedMap");
+      Object[] args = new Object[1];
+      args[0] = term22200;
+      callConstructor(klass, argTypes, args);
+    } catch (Throwable e) {};
+  }
 };
 ```
 
@@ -170,7 +170,7 @@ Line coverage, \%           & \multicolumn{1}{c|}{53.2} & 59.5  & \multicolumn{1
 Branch coverage, \%         & \multicolumn{1}{c|}{38.9} & 47.5  & \multicolumn{1}{c|}{35.0} & 50.0  \\ \hline
 Mutation coverage, \%       & \multicolumn{2}{c|}{0.0}          & \multicolumn{2}{c|}{0.0}          \\ \hline
 Test case understandability & \multicolumn{2}{c|}{3.95}         & \multicolumn{2}{c|}{3.69}         \\ \Xhline{1.5pt}
-Overall ranking             & \multicolumn{2}{c|}{4.89}         & \multicolumn{2}{c|}{3.69}         \\ \hline
+Overall ranking             & \multicolumn{2}{c|}{4.89}         & \multicolumn{2}{c|}{3.92}         \\ \hline
 \end{tabular}
 \end{table}
 
