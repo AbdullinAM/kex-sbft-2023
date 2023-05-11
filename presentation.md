@@ -139,7 +139,7 @@ public class ArrayListValuedHashMap-init-90775276022 {
 * traditional symbolic execution engine for automatic test generation
 * traverses the CFG of PUT on a basic block level
 * uses breadth-first search for path selection
-	* proof-of-concept prototype
+	* early prototype
 
 
 ################################################################################
