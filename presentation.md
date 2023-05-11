@@ -14,7 +14,7 @@
 
 ################################################################################
 
-# Kex overiview
+# Kex overview
 
 ![](kex)
 
@@ -79,7 +79,7 @@
 * PS allows support of multiple "backend" solvers
 	* Z3, Boolector, CVC4, KSMT
 * SBFT configuration used KSMT\footnote{\url{https://github.com/UnitTestBot/ksmt}}
-	* efficient asyncronos API for Z3 solver
+	* efficient asynchronous API for Z3 solver
 
 
 ################################################################################
